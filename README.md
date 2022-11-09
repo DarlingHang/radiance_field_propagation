@@ -1,6 +1,6 @@
 # Unsupervised Multi-View Object Segmentation Using Radiance Field Propagation
 ## [Project page](https://xinhangliu.com/nerf_seg) |  [Paper](https://arxiv.org/pdf/2210.00489.pdf)
-This repository contains a PyTorch implementation for the paper: [Unsupervised Multi-View Object Segmentation Using Radiance Field Propagation](https://arxiv.org/pdf/2210.00489.pdf). Our work present one of the first unsupervised approaches for tackling 3D real scene object segmentation for neural radiance field (NeRF) without any supervision, annotations, or other cues such as 3D bounding boxes and prior knowledge of object class.
+This repository contains a PyTorch implementation for NeurIPS 2022 paper: [Unsupervised Multi-View Object Segmentation Using Radiance Field Propagation](https://arxiv.org/pdf/2210.00489.pdf). Our work present one of the first unsupervised approaches for tackling 3D real scene object segmentation for neural radiance field (NeRF) without any supervision, annotations, or other cues such as 3D bounding boxes and prior knowledge of object class.
 
 <div>
 <img src="https://xinhangliu.com/img/method.jpg" height="360"/>
@@ -59,10 +59,12 @@ Thanks [TensoRF](https://github.com/apchenstu/TensoRF), [semantic_nerf](https://
 ## Citation
 If you find our code or paper helps, please consider citing:
 ```
-@article{liu2022unsupervised,
-      title={Unsupervised Multi-View Object Segmentation Using Radiance Field Propagation},
-      author={Liu, Xinhang and Chen, Jiaben and Yu, Huai and Tai, Yu-Wing and Tang, Chi-Keung},
-      journal={arXiv preprint arXiv:2210.00489},
-      year={2022}
-}
+@inproceedings{liu2022unsupervised,
+    title={Unsupervised Multi-View Object Segmentation Using Radiance Field Propagation},
+    author={Liu, Xinhang and Chen, Jiaben and Yu, Huai and Tai, Yu-Wing and Tang, Chi-Keung},
+    booktitle={Advances in Neural Information Processing Systems},
+    volume = {35},
+    url = {https://arxiv.org/pdf/2210.00489.pdf},
+    year={2022}
+    }
 ```
